@@ -78,5 +78,8 @@
     <requires type="dynamic">
       <file>project.bcf</file>
     </requires>
+    <requires type="editable">
+      <file>project.bib</file>
+    </requires>
   </external>
 </requests>

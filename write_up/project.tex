@@ -21,11 +21,49 @@
 \usepackage[]{booktabs}
 \usepackage[]{gensymb}
 \usepackage[]{fancyhdr}
+\addbibresource{project.bib}
 \geometry{top=1.0in, bottom=1.0in, left=1.0in, right=1.0in}
-\pagestyle{fancy}
-\fancyhead[l]{Tyler Mitchell}
-\fancyhead[c]{\textbf{}}
-\fancyhead[r]{\today}
-
+\title{Synergizing Cross-Departmental Bio-Optimization Frameworks to Actualize Aspirational Wellness Vectors through Innovative Caloric Recalibration Methodologies and Paradigm-Shifting Nutritional Engagement Strategies in a Dynamic, Future-Proofed Ecosystem of Holistic Health Empowerment\footnote{Optimization of core competencies was achieved through the implementation of next-generation ideation frameworks, facilitated by advanced language models to drive innovation and maximize stakeholder value proposition (Claude 3.5 Sonnet).}}
+\author{Damian Jadczak, Tyler Mitchell and Jacob Molnia}
+\date\today
+\definecolor{cadmiumgreen}{rgb}{0.0, 0.42, 0.24}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=cadmiumgreen,
+    filecolor=cadmiumgreen,      
+    urlcolor=cadmiumgreen,
+    citecolor=cadmiumgreen,
+    pdftitle={Synergizing Cross-Departmental Bio-Optimization Frameworks to Actualize Aspirational Wellness Vectors through Innovative Caloric Recalibration Methodologies and Paradigm-Shifting Nutritional Engagement Strategies in a Dynamic, Future-Proofed Ecosystem of Holistic Health Empowerment},
+    pdfpagemode=FullScreen,
+}
 \begin{document}
+\maketitle
+\tableofcontents
+\pagebreak
+\chapter{Introduction}
+\vspace*{-1in}
+\section{Objective}
+Our objective is to formulate a linear program to minimize the grocery costs of our group while maintaining nutritional recommendations and preferences. With this information, we will further algorithmically generate a weekly diet for each member based on their needs.
+\chapter{Methodology}
+\vspace*{-1in}
+\section{Diets}
+We begin formulating our linear program by agreeing on the dietary restrictions for each group member and their dietary goals\footnote{We calculated our dietary requirements using the \href{https://apps.apple.com/us/app/stupid-simple-macro-tracker/id1210995590}{Stupid Simple Macro Tracker}.}:
+\begin{table}[H]
+    \centering
+    \caption[short]{Weekly dietary requirements.}
+    \begin{tabular}{cccc}
+        \toprule
+        Diets & Damian & Tyler & Jacob\\ 
+        \midrule
+        Protein & 204 &312 & 222 \\ 
+        Fats &27 &56 & 49\\ 
+        Carbohydrates &143 &187 & 222 \\
+    \bottomrule
+    \label{tab:diet}
+    \end{tabular}
+\end{table}
+\section{Dataset}
+We obtained our data by modifying an existing set from Tirthajyoti Sarkar's \href{https://github.com/tirthajyoti/Optimization-Python/blob/master/Data/diet.xls}{Optimization-Python} project under MIT licensing.
+\pagebreak
+\printbibliography
 \end{document}
